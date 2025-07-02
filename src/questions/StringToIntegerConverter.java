@@ -14,8 +14,6 @@ interface Converter<T, R>{
             return defaultValue;
         }
     }
-
-
 }
 
 public class StringToIntegerConverter implements Converter<String,Integer>{
